@@ -1,0 +1,6 @@
+{
+  "projects": {
+    "prod": "tikeandmereza",
+    "default": "tikeandmereza"
+  }
+}

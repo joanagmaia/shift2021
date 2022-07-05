@@ -1,0 +1,24 @@
+.albumTitle {
+  margin-bottom: 2rem;
+  height: 20px;
+  width: 100%;
+  text-align: center;
+  transition: all 0.5s ease-in-out;
+}
+
+.sliderWrapper {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 4rem 2rem;
+  margin-top: 6rem;
+}
+
+.albumOption {
+  transform: scale(0.85);
+  transition: all 0.5s ease-in-out;
+  border-radius: 1rem;
+}
+.albumOption:hover {
+  transform: scale(1);
+}

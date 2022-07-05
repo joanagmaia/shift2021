@@ -1,0 +1,68 @@
+.albumDetailsWrapper {
+  position: fixed;
+  z-index: 2;
+  width: 35rem;
+  box-sizing: border-box;
+  top: 5rem;
+  bottom: 5rem;
+  right: 5rem;
+  padding: 3rem;
+  border-radius: 0.5rem;
+  overflow: auto;
+
+  & p {
+    text-align: left;
+  }
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 2rem;
+  height: 2rem;
+  background-color: unset;
+}
+
+.albumInfo {
+  display: flex;
+  gap: 1rem;
+  align-items: flex-end;
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.boldText {
+  font-weight: 700;
+}
+
+.textBlock {
+  display: flex;
+  flex-direction: column;
+  margin-top: 2rem;
+  gap: 1rem;
+
+  & .color {
+    border-radius: 0.5rem;
+    height: 3rem;
+    width: 15rem;
+  }
+
+  & p {
+    margin-bottom: 0.2rem;
+  }
+}
+
+.buttons {
+  display: flex;
+  gap: 1rem;
+}

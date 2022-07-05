@@ -1,0 +1,39 @@
+.button {
+  min-width: 4rem;
+  min-height: 4rem;
+  border-radius: 0.5rem;
+
+  & .reversedDirection {
+    flex-direction: row-reverse;
+  }
+
+  & .icon {
+    width: 4rem;
+    height: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  & .label {
+    padding-right: 1.5rem;
+    font-size: 1rem;
+  }
+
+  & .input {
+    background: transparent;
+    margin: 0 1.5rem;
+    border: none;
+    border-bottom: 2px solid white;
+    outline: none;
+    caret-color: white;
+    color: white;
+    font-size: 1rem;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 700;
+
+    &::placeholder {
+      color: transparent;
+    }
+  }
+}
